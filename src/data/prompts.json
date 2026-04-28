@@ -1,0 +1,35 @@
+{
+  "categories": {
+    "prose": [
+      {
+        "id": "p1",
+        "text": "The quick brown fox jumps over the lazy dog near the riverbank at dawn."
+      },
+      {
+        "id": "p2",
+        "text": "Typing speed rewards calm focus, steady rhythm, and gentle accuracy over frantic bursts."
+      },
+      {
+        "id": "p3",
+        "text": "Small tools that respect the terminal can feel as responsive as any polished web UI."
+      }
+    ],
+    "code": [
+      {
+        "id": "c1",
+        "text": "const sum = (a: number, b: number) => a + b;",
+        "language": "ts"
+      },
+      {
+        "id": "c2",
+        "text": "export function clamp(n: number, min: number, max: number) { return Math.min(max, Math.max(min, n)); }",
+        "language": "ts"
+      },
+      {
+        "id": "c3",
+        "text": "if (err) { process.stderr.write(String(err)); process.exit(1); }",
+        "language": "ts"
+      }
+    ]
+  }
+}
